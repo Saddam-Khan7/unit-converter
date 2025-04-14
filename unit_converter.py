@@ -46,6 +46,7 @@ def convert_time(value, from_unit, to_unit):
     return value / time_units[from_unit] * time_units[to_unit]
 
 # --- Sidebar for Unit Category ---
+st.sidebar.markdown("Developed by **Saddam Khan**")
 category = st.sidebar.selectbox("Select Unit Category", ["Length", "Weight", "Time"])
 
 # --- Input Section ---
